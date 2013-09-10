@@ -32,6 +32,6 @@ You can post your own data to port 2003 or look to use something like StatsD.
 
 The format of the data you post is:
 
-	<stat name> <value> <time>
+	<stat name> <value> <time>\n
 	
-	system.loadavg_1min 0.04 1378814122
+	system.loadavg_1min 0.04 1378814122\n
