@@ -11,7 +11,7 @@ Run:
 
 	vagrant up
 
-Go to: (http://10.0.1.100)[http://10.0.1.100]
+Go to: [http://10.0.1.100](http://10.0.1.100)
 	
 Virtual machine defaults to 10.0.1.100.
 
