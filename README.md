@@ -15,6 +15,10 @@ Go to: [http://10.0.1.100](http://10.0.1.100)
 	
 Virtual machine defaults to 10.0.1.100.
 
+If you get a server 500 message when attempting to view graphite try to provision the VM again with:
+
+	vagrant provision
+	
 #Adding Data#
 To add test data you can run the graphite example client which can be found at '/opt/graphite/examples/example-client.py'
 
@@ -22,4 +26,12 @@ To add test data you can run the graphite example client which can be found at '
 	
 	/opt/graphite/examples/example-client.py
 	
-This will add system load value every 60 seconds.
+This will add system load values every 60 seconds.
+
+You can post your own data to port 2003 or look to use something like StatsD.
+
+The format of the data you post is:
+
+	<stat name> <value> <time>
+	
+	system.loadavg_1min 0.04 1378814122
