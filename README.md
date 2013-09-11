@@ -1,9 +1,9 @@
 Vagrant Graphite
 ================
 
-Vagrant VM for an Ubuntu Precise (12.04) box running graphite.
+[Vagrant](http://www.vagrantup.com/) VM for an Ubuntu Precise (12.04) box running [Graphite](http://graphite.wikidot.com/).
 
-This will launch a virtual machine running [Graphite](http://graphite.wikidot.com/), the scalable realtime graphing software, right off the bat - all you have to do is feed it your data and make your graphs.
+This will launch a virtual machine running [Graphite](http://graphite.wikidot.com/), the scalable realtime graphing software. All you have to do is feed it your data and make your graphs.
 
 Tested with Vagrant 1.3.1.
 
@@ -34,7 +34,7 @@ To add test data you can run the graphite example client which can be found at '
 	
 This will add system load values every 60 seconds.
 
-You can post your own data to port 2003 or look to use something like StatsD.
+You can post your own data to port 2003 or look to use something like [StatsD](https://github.com/etsy/statsd/).
 
 The format of the data you post is:
 
