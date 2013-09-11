@@ -41,3 +41,7 @@ The format of the data you post is:
 	<stat name> <value> <time>\n
 	
 	system.loadavg_1min 0.04 1378814122\n
+
+An example using netcat:
+
+	echo "local.test 4 `date +%s`" | nc 10.0.1.100 2003
