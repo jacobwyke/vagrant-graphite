@@ -8,9 +8,9 @@ This will launch a virtual machine running [Graphite](http://graphite.wikidot.co
 Tested with Vagrant 1.3.1.
 
 #Config#
-There are some config options available in 'vagrant.config.rb' which allow you to easily change the IP address the VM uses.
+There are some config options available in '[vagrant.config.rb](https://github.com/jacobwyke/vagrant-graphite/blob/master/vagrant.config.rb)' which allow you to easily change the IP address the VM uses.
 
-All config variables are exaplained in 'vagrant.config.rb'.
+All config variables are exaplained in '[vagrant.config.rb](https://github.com/jacobwyke/vagrant-graphite/blob/master/vagrant.config.rb)'.
 
 #Installation#
 Run:
