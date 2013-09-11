@@ -3,8 +3,14 @@ Vagrant Graphite
 
 Vagrant VM for an Ubuntu Precise (12.04) box running graphite.
 
+This will launch a virtual machine running [Graphite](http://graphite.wikidot.com/), the scalable realtime graphing software, right off the bat - all you have to do is feed it your data and make your graphs.
+
+Tested with Vagrant 1.3.1.
+
 #Config#
 There are some config options available in 'vagrant.config.rb' which allow you to easily change the IP address the VM uses.
+
+All config variables are exaplained in 'vagrant.config.rb'.
 
 #Installation#
 Run:
